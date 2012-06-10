@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- MenuItem1 "Solo" -->
+    <!-- MenuItem1 "Group" -->
+    <!-- MenuItem1 "Choose Module" -->
+    <!-- MenuItem1 "Quit" -->
+
+    <TextView
+        android:id="@+id/currentModuleLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="110dp"
+        android:text="@string/CurrentModule" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:onClick="soloStartMenu"
+        android:text="@string/MenuItem1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/currentModuleLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="47dp"
+        android:onClick="quitApplication"
+        android:text="@string/MenuItem4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="32dp"
+        android:onClick="groupStartMenu"
+        android:text="@string/MenuItem2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="38dp"
+        android:onClick="chooseModuleMenu"
+        android:text="@string/MenuItem3" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DigitalFlashCardActivity!</string>
+    <string name="app_name">Digital Flash Card</string>
+    <string name="MenuItem1">Solo</string>
+    <string name="MenuItem2">Group</string>
+    <string name="MenuItem3">Choose Module</string>
+    <string name="MenuItem4">Quit</string>
+    <string name="CurrentModule">Current Module:</string>
+    <string name="module_id">Module ID #</string>
+    <string name="get_module">Get module</string>
+    <string name="Grade">A</string>
+    <string name="menu">Menu</string>
+    <string name="restart">Try again?</string>
+    <string name="number_correct"># correct</string>
+    <string name="total_number">Total number of cards</string>
+    <string name="time">Completion time</string>
+    <string name="student">Begin as Student</string>
+    <string name="teacher">Begin as Teacher</string>
+    <string name="find_group">Find Group</string>
+    <string name="current_group">Current group: NULL</string>
+    <string name="start_group">Start Group</string>
+    <string name="input_group_number">Group number:</string>
+    <string name="previous">&lt;</string>
+    <string name="next">&gt;</string>
+    <string name="card_number">card #</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="right">Right</string>
+    <string name="wrong">Wrong</string>
+    <string name="update">Update</string>
+    <string name="module_title">Select module</string>
+
+</resources>

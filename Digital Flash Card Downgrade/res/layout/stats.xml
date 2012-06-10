@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/Grade"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="100sp" />
+    
+    <TextView
+        android:id="@+id/numberCorrect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/number_correct"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <TextView
+        android:id="@+id/totalNumberOfCards"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/total_number"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+     <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MenuItem3"
+        android:onClick="chooseModuleMenu"
+        />
+    	<!-- MenuItem1 "Choose Module" -->
+
+     <Button
+         android:id="@+id/button5"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/menu" 
+         android:onClick="mainMenu"/>
+
+     <Button
+         android:id="@+id/button6"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/restart" 
+         android:onClick="soloStartMenu"/>
+
+     <TextView
+         android:id="@+id/curModule"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center_horizontal"
+         android:text="@string/CurrentModule"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</LinearLayout>
